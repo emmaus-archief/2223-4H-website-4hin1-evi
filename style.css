@@ -58,6 +58,16 @@ p {
   clear:both;                   /* stop met floaten */
 }
 
+.tekstlinks {
+  float:left;
+  width: 500px;
+}
+
+.tekstrechts {
+  float: right;
+  width:450px;
+}
+
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
@@ -106,4 +116,20 @@ nav li a:hover {
 
 nav li a.active {
     background-color: rgb(0, 100, 50);
+}
+
+.diffbooks {
+  float:right;
+  width:440px;
+}
+.diffbooks2 {
+  float:left;
+  width:440px;
+}
+.cover1book2 {
+  float:right;
+}
+.cover2book2 {
+  float:right;
+margin-left:400px;
 }
