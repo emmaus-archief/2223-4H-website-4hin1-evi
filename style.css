@@ -129,22 +129,30 @@ nav li a.active {
   float:left;
   width:440px;
 }
-.cover1book2 {
-  float:right;
-}
+
 .cover2book2 {
   float:right;
-margin-left:400px;
+   width: 125px;
+  height: 175px;
 }
-.cover3book1 {
-  float: left;
-}
-.cover4book1 {
-  float:right;
-}
+
 .part1 {
-  border:solid green;
-  width:270px;
-  height:360px;
+  border: 20px solid red;
+  width:500px;
+  height:400px;
+}
+.tekstdeel1 {
+ float:right;
+  width: 200px;
+  height: 200px;
   
+}
+.box {
+  width: 500px;
+ height: 400px;
+  border: 20px solid red;
+}
+.inheritance{
+  width:125px;
+  height: 175px;
 }
