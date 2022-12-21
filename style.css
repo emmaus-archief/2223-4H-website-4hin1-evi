@@ -2,14 +2,14 @@
 
 * {                                          /* geldt voor alles */
     /* border: 1px dotted black;         */  /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien, letop dat dit de layout soms kan wijzigen */
-     background-color: rgba(0,0,0,5%);   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+     /*background-color: rgba(0,0,0,5%);*/   /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
 }
 
 /* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: rgb(254, 252, 221);    /* achtergrondkleur lichtgrijs */
+  background-color: rgb(204, 232, 181);    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -123,7 +123,7 @@ nav li a.active {
 }
 
 .diffbooks {
-  width: 30%;
+  width: 63%;
   float:left;
 }
 .diffbooks2 {
@@ -136,8 +136,19 @@ nav li a.active {
    width: 125px;
   height: 175px;
 }
+#plaatjerechts2 {
+  float: left;
+  margin-right: 4px;
+}
+
+
+
 .part1{
   width: auto;
+  height:400px;
+}
+.part2{
+  width:auto;
   height:400px;
 }
 
@@ -154,10 +165,6 @@ nav li a.active {
 .inheritance{
   width:125px;
   height: 175px;
-}
-#plaatjerechts2 {
-  float: left;
-  margin-right: 4px;
 }
 
 .boxplaatjes {
