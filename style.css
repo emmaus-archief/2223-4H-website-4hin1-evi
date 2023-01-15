@@ -47,29 +47,6 @@ p {
 
 /* Indeling voor hoofd pagina */
 
-.kolomLinks {
-  float:left;
-  width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
-}
-.kolomRechts {
-  float:left;
-  width: 450px;
-}
-.kolomStop {
-  clear:both;                   /* stop met floaten */
-}
-
-.tekstlinks {
-  float:left;
-  width: 500px;
-}
-
-.tekstrechts {
-  float: right;
-  width:450px;
-  border:
-}
 
 /* Opmaak voor alle pagina's */
 
@@ -122,55 +99,70 @@ nav li a:hover {
   transition: 1s;
 }
 
-nav li a.active {
- 
+nav li a.active { 
 }
 
-
-
-.diffbooks {
-  width: 63%;
+.kolomLinks {
   float:left;
+  width:180px;
+  height:240px;
+  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
-.diffbooks2 {
+.kolomRechts {
   float:left;
-  width:440px;
+  width: 450px;
+}
+.kolomStop {
+  clear:both;                   /* stop met floaten */
 }
 
-.cover2book2 {
+.tekstlinks {
+  float:left;
+  width: 500px;
+}
+
+.tekstrechts {
+  float: right;
+  width:450px;
+  border:
+}
+
+.characters {
+   width: 220px;
+  height: 370px;
   float:right;
-   width: 125px;
-  height: 175px;
-}
-#plaatjerechts2 {
-  float: left;
-  margin-right: 4px;
+  padding: 10px;
 }
 
-
+.writer {
+   width: 250px;
+  height: 370px;
+}
 
 .tekst{
   width: auto;
   height:400px;
 }
 
+.boxplaatjes {
+  width: 37%;
+  float:left;
+  padding-top: 4px;
+}
 
-.tekstdeel1 {
-  /*float:right;*/
-  width: auto;
-  height: auto;
-  border: 2px red;
-}
-.box {
-  width: 300px;
- height: 400px;
-}
 .inheritance{
   width:125px;
   height: 175px;
 }
 
-.boxplaatjes {
-  width: 37%;
+#plaatjerechts2 {
+  float: left;
+  margin-right: 4px;
+}
+
+.diffbooks {
+  width: 63%;
   float:left;
 }
+
+
